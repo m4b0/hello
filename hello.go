@@ -8,9 +8,9 @@ import (
 func main() {
 	fmt.Printf("Hello, world! *\n")
 
-	current_local_time := time.Now().Local()
-	fmt.Println("The Current time is ", current_local_time.Format("2006-01-02"))
+	currentLocalTime := time.Now().Local()
+	fmt.Println("The Current time is ", currentLocalTime.Format("2006-01-02"))
 
-	current_utc_time := time.Now().UTC()
-	fmt.Println("The Current time is ", current_utc_time.Format("2006-01-02 MST"))
+	currentUTCtime := time.Now().UTC()
+	fmt.Println("The Current time is ", currentUTCtime.Format("2006-01-02 MST"))
 }
